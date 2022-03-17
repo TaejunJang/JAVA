@@ -2,7 +2,7 @@ package test.load.java;
 
 public class Main {
 
-	public static void main(String[] args)	{
+	public static void main(String[] args) throws ClassNotFoundException	{
 		
 		//클래스가 로드가 되는 경우
 		
@@ -21,6 +21,10 @@ public class Main {
 		
 		//일반 메소드 호출
 		//loadTimeCheckClass.norMalMethod();
+		
+		//리플렉션
+		//Class clazz = Class.forName("test.load.java.LoadTimeCheck");
+		//Class clazz = LoadTimeCheck.class;
 		
 	}
 	
